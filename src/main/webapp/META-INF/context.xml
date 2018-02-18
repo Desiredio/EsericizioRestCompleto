@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<Context path="/rest_bilancio_familiare">
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<ResourceLink global="jdbc/rest_bilancio_familiare" name="jdbc/rest_bilancio_familiare"
+		type="javax.sql.DataSource"></ResourceLink>
+</Context>
